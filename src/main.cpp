@@ -703,7 +703,7 @@ else
 int main(int argc, char** argv)
 {
     // ROS init
-    ros::init (argc,argv,"KFTracker");
+    ros::init (argc,argv,"kf_tracker");
     ros::NodeHandle nh;
 
    
