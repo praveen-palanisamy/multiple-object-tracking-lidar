@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(kf_tracker)
+project(multi_object_tracking_lidar)
 
 set(CMAKE_CXX_FLAGS "-std=c++0x ${CMAKE_CXX_FLAGS}")
 ## Find catkin macros and libraries
@@ -109,8 +109,8 @@ include_directories(
 
 ## Declare a cpp executable
 # add_executable(kf_tracker_node src/kf_tracker_node.cpp)
-add_executable( tracker src/main.cpp )
-target_link_libraries ( tracker ${OpenCV_LIBRARIES} ${catkin_LIBRARIES})
+add_executable( kf_tracker src/main.cpp )
+target_link_libraries ( kf_tracker ${OpenCV_LIBRARIES} ${catkin_LIBRARIES})
  
 ## Add cmake target dependencies of the executable/library
 ## as an example, message headers may need to be generated before nodes
@@ -136,11 +136,11 @@ target_link_libraries ( tracker ${OpenCV_LIBRARIES} ${catkin_LIBRARIES})
 # )
 
 ## Mark executables and/or libraries for installation
-# install(TARGETS kf_tracker kf_tracker_node
-#   ARCHIVE DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
-#   LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
-#   RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
-# )
+install(TARGETS kf_tracker
+	ARCHIVE DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
+	LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
+	RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+)
 
 ## Mark cpp header files for installation
 # install(DIRECTORY include/${PROJECT_NAME}/

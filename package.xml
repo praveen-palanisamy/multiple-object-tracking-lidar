@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package>
-  <name>kf_tracker</name>
+  <name>multi_object_tracking_lidar</name>
   <version>1.0.0</version>
-  <description>The kf_tracker package</description>
+  <description>ROS package for Multiple objects detection, tracking and classification from LIDAR scans/point-clouds</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag --> 
   <!-- Example:  -->
