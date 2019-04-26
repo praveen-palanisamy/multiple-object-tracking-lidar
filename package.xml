@@ -43,11 +43,16 @@
   <build_depend>pcl_ros</build_depend>
   <build_depend>roscpp</build_depend>
   <build_depend>sensor_msgs</build_depend>
+  <build_depend>visualization_msgs</build_depend>
   <build_depend>libpcl-all-dev</build_depend>
+  <build_depend>cv_bridge</cv_bridge>
+
   <run_depend>libpcl-all</run_depend>
   <run_depend>pcl_ros</run_depend>
   <run_depend>roscpp</run_depend>
   <run_depend>sensor_msgs</run_depend>
+  <run_depend>visualization_msgs</run_depend>
+  <run_depend>cv_bridge</run_depend>
 
 
   <!-- The export tag contains other, unspecified, tags -->
