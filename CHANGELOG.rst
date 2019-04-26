@@ -2,6 +2,13 @@
 Changelog for package multi_object_tracking_lidar
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Fixed cv_bridge build depend
+* Removed indirection op to be compatible with OpenCV 3+
+* Added visualization_msgs & cv_bridge build & run dependencies
+* Contributors: Praveen Palanisamy
+
 1.0.0 (2019-04-13)
 ------------------
 * Updated README with usage instructions
