@@ -21,4 +21,11 @@ Follow the steps below to use this (`multi_object_tracking_lidar`) package:
 1. Add the catkin workspace to your ROS environment: `source ~/catkin_ws/devel/setup.bash`
 1. Run the `kf_tracker` ROS node in this package: `rosrun multi_object_tracking_lidar kf_tracker`
 
-If all went well, the ROS node should be up and running! As long as you have the point clouds (from 1. A real LiDAR or 2. A simulated LiDAR or 3. A point cloud dataset or 4. Any other data source that produces point clouds) published on to the `filtered_cloud` rostopic, you should see outputs from this node published onto the `obj_id`, `cluster_0`, `cluster_1`, …, `cluster_5` topics along with the markers on `viz` topic which you can visualize using RViz.
+If all went well, the ROS node should be up and running! As long as you have the point clouds published on to the `filtered_cloud` rostopic, you should see outputs from this node published onto the `obj_id`, `cluster_0`, `cluster_1`, …, `cluster_5` topics along with the markers on `viz` topic which you can visualize using RViz.
+
+### Supported point-cloud streams/sources:
+The input point-clouds can be from:
+1. A real LiDAR or 
+2. A simulated LiDAR or 
+3. A point cloud dataset or 
+4. Any other data source that produces point clouds
