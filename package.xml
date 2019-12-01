@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>multi_object_tracking_lidar</name>
-  <version>1.0.1</version>
+  <version>1.0.2</version>
   <description>ROS package for Multiple objects detection, tracking and classification from LIDAR scans/point-clouds</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag --> 
