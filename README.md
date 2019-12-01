@@ -1,4 +1,8 @@
 # Multiple objects detection, tracking and classification from LIDAR scans/point-clouds
+
+
+[![DOI](https://zenodo.org/badge/47581608.svg)](https://zenodo.org/badge/latestdoi/47581608)
+
 ![Sample demo of multiple object tracking using LIDAR scans](https://media.giphy.com/media/3YKG95w9gu263yQwDa/giphy.gif)
 
 PCL based ROS package to Detect/Cluster --> Track --> Classify static and dynamic objects in real-time from LIDAR scans implemented in C++.
@@ -29,6 +33,24 @@ The input point-clouds can be from:
 2. A simulated LiDAR or 
 3. A point cloud dataset or 
 4. Any other data source that produces point clouds
+
+## Citing
+
+If you use the code or snippets from this repository in your work, please cite:
+
+```bibtex
+@software{praveen_palanisamy_2019_3559187,
+  author       = {Praveen Palanisamy},
+  title        = {{praveen-palanisamy/multiple-object-tracking-lidar: 
+                   Multiple-Object-Tracking-from-Point-Clouds_v1.0.2}},
+  month        = dec,
+  year         = 2019,
+  publisher    = {Zenodo},
+  version      = {1.0.2},
+  doi          = {10.5281/zenodo.3559187},
+  url          = {https://doi.org/10.5281/zenodo.3559186}
+}
+```
 
 ### Wiki
 
