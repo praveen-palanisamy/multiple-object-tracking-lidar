@@ -2,6 +2,13 @@
 Changelog for package multi_object_tracking_lidar
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.0.2 (2019-12-01)
+------------------
+* Added link to wiki pages
+* Updated readme with suuported pointcloud sources
+* Updated README to clarify real, sim, dataset LiDAR data
+* Contributors: Praveen Palanisamy
+
 1.0.1 (2019-04-26)
 ------------------
 * Fixed cv_bridge build depend
