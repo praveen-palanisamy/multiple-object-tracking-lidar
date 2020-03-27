@@ -10,7 +10,7 @@ PCL based ROS package to Detect/Cluster --> Track --> Classify static and dynami
 ### Features:
 
 - K-D tree based point cloud processing for object feature detection from point clouds
-- Unsupervised k-means clustering based on detected features and refinement using RANSAC
+- Unsupervised euclidean cluster extraction (3D) or k-means clustering based on detected features and refinement using RANSAC (2D)
 - Stable tracking (object ID & data association) with an ensemble of Kalman Filters 
 - Robust compared to k-means clustering with mean-flow tracking
 
