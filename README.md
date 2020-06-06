@@ -56,4 +56,4 @@ If you use the code or snippets from this repository in your work, please cite:
 
 [Checkout the Wiki pages](https://github.com/praveen-palanisamy/multiple-object-tracking-lidar/wiki)
 
-1. [Multiple-object tracking from pointclouds using a Velodyne VLP-16](velodyne_vlp16)
+1. [Multiple-object tracking from pointclouds using a Velodyne VLP-16](https://github.com/praveen-palanisamy/multiple-object-tracking-lidar/wiki/velodyne_vlp16)
