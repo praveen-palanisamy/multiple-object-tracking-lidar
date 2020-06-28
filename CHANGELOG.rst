@@ -2,6 +2,21 @@
 Changelog for package multi_object_tracking_lidar
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.0.3 (2020-06-27)
+------------------
+* Merge pull request #26 from artursg/noetic-devel
+  C++11 --> C++14 to allow compiling with later versions of PCL, ROS Neotic
+* Compiles under ROS Noetic
+* Merge pull request #25 from praveen-palanisamy/add-license-1
+  Add MIT LICENSE
+* Add LICENSE
+* Merge pull request #24 from mzahran001/patch-1
+  Fix broken hyperlink to wiki page in README
+* Fixing link error
+* Updated README to make clustering approach for 3D vs 2D clear #21
+* Added DOI and citing info
+* Contributors: Artur Sagitov, Mohamed Zahran, Praveen Palanisamy
+
 1.0.2 (2019-12-01)
 ------------------
 * Added link to wiki pages
