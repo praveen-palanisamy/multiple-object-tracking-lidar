@@ -34,6 +34,9 @@ The input point-clouds can be from:
 3. A point cloud dataset or 
 4. Any other data source that produces point clouds
 
+**Note:** This package expects valid point cloud data as input. The point clouds you publish to the "`filtered_cloud`" is **not** expected to contain NaNs. The point cloud filtering is somewhat task and application dependent and therefore it is not done by this module. 
+PCL library provides `pcl::removeNaNFromPointCloud (...)` method  to filter out NaN points. You can refer to [this example code snippet](https://github.com/praveen-palanisamy/multiple-object-tracking-lidar/issues/29#issuecomment-672098760) to easily filter out NaN points in your point cloud.
+
 ## Citing
 
 If you use the code or snippets from this repository in your work, please cite:
