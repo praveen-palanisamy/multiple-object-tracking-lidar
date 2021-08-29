@@ -2,6 +2,15 @@
 Changelog for package multi_object_tracking_lidar
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge pull request `#46 <https://github.com/praveen-palanisamy/multiple-object-tracking-lidar/issues/46>`_ from praveen-palanisamy/rm-topic-slash-prefix
+  Remove topic slash prefix
+* Apply clang-format-10
+* Rm slash prefix (deprecated in TF2)
+* Add note to filter NaNs in input point clouds
+* Contributors: Praveen Palanisamy
+
 1.0.3 (2020-06-27)
 ------------------
 * Merge pull request #26 from artursg/noetic-devel
