@@ -2,8 +2,8 @@
 Changelog for package multi_object_tracking_lidar
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.0.4 (2021-08-29)
+------------------
 * Merge pull request `#46 <https://github.com/praveen-palanisamy/multiple-object-tracking-lidar/issues/46>`_ from praveen-palanisamy/rm-topic-slash-prefix
   Remove topic slash prefix
 * Apply clang-format-10
