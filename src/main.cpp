@@ -247,7 +247,7 @@ void KFT(const std_msgs::Float32MultiArray ccs)
 
         m.id=i;
         m.type=visualization_msgs::Marker::CUBE;
-        m.header.frame_id="/map";
+        m.header.frame_id="map";
         m.scale.x=0.3;         m.scale.y=0.3;         m.scale.z=0.3;
         m.action=visualization_msgs::Marker::ADD;
         m.color.a=1.0;
@@ -331,7 +331,7 @@ if (!(meas5[0]==0.0f || meas5[1]==0.0f))
 void publish_cloud(ros::Publisher& pub, pcl::PointCloud<pcl::PointXYZ>::Ptr cluster){
   sensor_msgs::PointCloud2::Ptr clustermsg (new sensor_msgs::PointCloud2);
   pcl::toROSMsg (*cluster , *clustermsg);
-  clustermsg->header.frame_id = "/map";
+  clustermsg->header.frame_id = "map";
   clustermsg->header.stamp = ros::Time::now();
   pub.publish (*clustermsg);
 
